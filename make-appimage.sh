@@ -12,7 +12,7 @@ export ICON=https://raw.githubusercontent.com/skylersaleh/SkyEmu/refs/heads/dev/
 export DESKTOP=/usr/share/applications/skyemu.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/skyemu
+quick-sharun /usr/bin/SkyEmu
 
 # Additional changes can be done in between here
 
