@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=https://raw.githubusercontent.com/skylersaleh/SkyEmu/refs/heads/dev/src/resources/icons/icon-nobg.png
 export DESKTOP=/usr/share/applications/skyemu.desktop
 export STARTUPWMCLASS=
+export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/SkyEmu
