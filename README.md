@@ -1,19 +1,19 @@
 <div align="center">
 
-# TEMPLATE-AppImage 🐧
+# SkyEmu-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/TEMPLATE-AppImage)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/SkyEmu-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/SkyEmu-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/SkyEmu-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/SkyEmu-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/SkyEmu-AppImage)](https://github.com/pkgforge-dev/SkyEmu-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://raw.githubusercontent.com/skylersaleh/SkyEmu/46efbcbdb3b902373a09f4724e6d3b1a5acc4af3/src/resources/icons/icon.svg" width="128" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [Click here](https://github.com/pkgforge-dev/SkyEmu-AppImage/releases/latest) | [Click here](https://github.com/skylersaleh/SkyEmu) |
 
 </div>
 
