@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/SkyEmu-AppImage)](https://github.com/pkgforge-dev/SkyEmu-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/skylersaleh/SkyEmu/46efbcbdb3b902373a09f4724e6d3b1a5acc4af3/src/resources/icons/icon.svg" width="128" />
+  <img src="https://raw.githubusercontent.com/skylersaleh/SkyEmu/refs/heads/dev/src/resources/icons/icon-nobg.png" width="128" />
 </p>
 
 
