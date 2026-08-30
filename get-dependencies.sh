@@ -44,4 +44,4 @@ cmake . \
     -D USE_SYSTEM_OPENSSL=ON \
     -D USE_SYSTEM_SDL2=ON
 make -j$(nproc)
-mv -v bin/SkyEmu ./AppDir/bin
+mv -v bin/SkyEmu ../AppDir/bin
