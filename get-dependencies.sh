@@ -31,7 +31,7 @@ get-debloated-pkgs --add-common --prefer-nano libdecor-mini
 echo "Building stable version of SkyEmu..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/skylersaleh/SkyEmu"
-VERSION="$(curl -s https://api.github.com/repos/skylersaleh/SkyEmu/releases/latest | grep '"tag_name"' | cut -d '"' -f 4)"
+VERSION="$(curl -s https://api.github.com/repos/skylersaleh/SkyEmu/releases/latest | grep '"tag_name"' | cut -d '"' -f 4 | sed 's/^v//')"
 git clone "$REPO" ./SkyEmu
 echo "$VERSION" > ~/version
 
@@ -44,4 +44,4 @@ cmake -S ./ -B build \
     -D USE_SYSTEM_OPENSSL=ON \
     -D USE_SYSTEM_SDL2=ON
 cmake --build build -j$(nproc)
-mv -v build/ ./AppDir/bin
+mv -v build/SkyEmu ./AppDir/bin
