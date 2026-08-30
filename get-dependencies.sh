@@ -37,11 +37,11 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./SkyEmu
-cmake -S ./ -B build \
+cmake . \
     -G 'Unix Makefiles' \
     -D CMAKE_BUILD_TYPE=Release \
     -D USE_SYSTEM_CURL=ON \
     -D USE_SYSTEM_OPENSSL=ON \
     -D USE_SYSTEM_SDL2=ON
-cmake --build build -j$(nproc)
-mv -v build/SkyEmu ./AppDir/bin
+make -j$(nproc)
+mv -v bin/SkyEmu ./AppDir/bin
