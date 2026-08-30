@@ -1,0 +1,11 @@
+[Desktop Entry]
+StartupWMClass=SkyEmu
+Type=Application
+Name=SkyEmu
+Comment=Game Boy Advance, Game Boy, Game Boy Color, and DS Emulator
+Exec=SkyEmu
+Icon=skyemu
+StartupWMClass=
+Terminal=false
+StartupNotify=false
+Categories=Game;Emulator;
