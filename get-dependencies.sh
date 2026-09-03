@@ -25,6 +25,7 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./SkyEmu
+git checkout "$VERSION"
 cmake . \
     -G 'Unix Makefiles' \
     -D CMAKE_BUILD_TYPE=Release \
