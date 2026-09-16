@@ -8,8 +8,6 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake          \
-    pipewire-audio \
-    pipewire-jack  \
     sdl2-compat
 
 echo "Installing debloated packages..."
