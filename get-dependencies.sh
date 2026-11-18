@@ -15,8 +15,9 @@ get-debloated-pkgs --add-common --prefer-nano libdecor-mini
 echo "Building stable version of SkyEmu..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/skylersaleh/SkyEmu"
-VERSION="$(curl -s https://api.github.com/repos/skylersaleh/SkyEmu/releases/latest | grep '"tag_name"' | cut -d '"' -f 4 | sed 's/^v//')"
-git clone --depth 1 --branch "$VERSION" "$REPO" ./SkyEmu
+TAG="$(curl -s https://api.github.com/repos/skylersaleh/SkyEmu/releases/latest | grep '"tag_name"' | cut -d '"' -f 4)"
+VERSION="${TAG#v}"
+git clone --depth 1 --branch "$TAG" "$REPO" ./SkyEmu
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
